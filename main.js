@@ -109,7 +109,7 @@ client.once('ready', () => {
     console.log('\x1b[32m%s\x1b[0m', `|    🎯 Activity sucessfully set!`);
     client.user.setPresence({
       activities: [{ name: `.𝘣𝘰𝘮𝘪𝜗𝜚˚⋆`, type: ActivityType.Playing }],
-      status: 'idle',
+      status: 'dnd',
     });
   }, 2000); 
 });
