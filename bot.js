@@ -6,10 +6,13 @@ const { Classic } = require("musicard");
 const { prefix } = require('./config.json');
 const nodes = [
     {
-        host: "37.114.42.191",
-        port: 6767, 
-        password: "danteisnttaken", 
-         secure: false
+        name: "Working1",
+        host: "nodev4.fypmoon.org",
+        port: 1118,
+        password: "fypmoon.org",
+        reconnectTimeout: 5000,
+        reconnectTries: Infinity,
+        secure: false
     },
 ];
 
