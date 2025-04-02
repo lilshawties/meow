@@ -9,7 +9,7 @@ const nodes = [
         name: "meow",
         host: "192.99.10.133",
         port: 7307,
-        password: "061104",
+        password: "25156",
         secure: false
     },
 ];
