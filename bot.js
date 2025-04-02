@@ -7,11 +7,9 @@ const { prefix } = require('./config.json');
 const nodes = [
     {
         name: "Server",
-        host: "nodev4.fypmoon.org",
-        port: 1118,
-        password: "fypmoon.org",
-        reconnectTimeout: 5000,
-        reconnectTries: Infinity,
+        host: "192.99.10.133",
+        port: 7307,
+        password: "061104",
         secure: false
     },
 ];
